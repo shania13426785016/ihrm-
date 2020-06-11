@@ -15,7 +15,7 @@ suit = unittest.TestSuite()
 suit.addTest(unittest.makeSuite(TestIhrmEmpliyeeParams))
 suit.addTest(unittest.makeSuite(TestLogin))
 # 测试报告的命名和存放位置
-file_name = app.base_dir + "/report/ihrm_report_{}.html".format(time.strftime("%H%M%S"))
+file_name = app.base_dir + "/report/ihrm.html"
 # 将测试报告写入命名好的测试文件里面
 with open(file_name, "wb")as f:
     # 选择测试报告模式
