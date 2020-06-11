@@ -23,3 +23,5 @@ with open(file_name, "wb")as f:
                                                description="漂亮的测试报告-员工的增删改查")
     # 运行测试报告
     sunner.run(suit)
+print("*" * 100)
+print("增加轮巡构建效果")
