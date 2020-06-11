@@ -25,3 +25,4 @@ with open(file_name, "wb")as f:
     sunner.run(suit)
 print("*" * 100)
 print("增加轮巡构建效果")
+print("增加收邮件的效果")
